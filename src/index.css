@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .btn{
+    @apply rounded-3xl py-3 px-5 transition-shadow duration-300 hover:shadow-lg
+  }
+}
+
+
+:root {
+  font-family: Poppins, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgb(52, 54, 74);
+  background-color: rgb(246, 248, 253);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

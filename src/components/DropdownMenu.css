@@ -1,0 +1,8 @@
+:root{
+    --translate-x: 0;
+
+    @media (min-width:1080px){
+        --translate-x: -20rem;
+    }
+}
+
